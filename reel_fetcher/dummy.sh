@@ -1,0 +1,23 @@
+curl 'https://www.instagram.com/api/v1/feed/user/1381101303/?count=12&max_id=3109752203199447967_1381101303' \
+  -H 'authority: www.instagram.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: mid=ZGGZCAAEAAHX2c9KlxyZBs0OcXI3; ig_nrcb=1; ig_did=ECFEB947-D39A-4319-B056-1EB95BF7DFFD; fbm_124024574287414=base_domain=.instagram.com; datr=b6NhZNVrFi1_mm2BNrKSpV1m; shbid="15584\05451304663025\0541717736267:01f73a945d33a170be92362ea429bdd2ee4d3e6e3eca3c2988a58686e2b21d66195b5211"; shbts="1686200267\05451304663025\0541717736267:01f7caeaf501ad39e8b4e6acfe32efa10808dfc56d70b3057fc5d3b62aa3d237d449c214"; dpr=2; csrftoken=JlkOLu6d2xfaAqM59M0BkeZ6q8oaqVNW; ds_user_id=59502245384; sessionid=59502245384%3AftlFiP2p23p4Ob%3A6%3AAYfFQq91iCwWjA6I07DTCkUJyMiu4GVdamDe0F4xQA; fbsr_124024574287414=sjQItDuZ8QrutGeaQg_Ky3y5ndL5lriziLXHEnq_K-E.eyJ1c2VyX2lkIjoiMTAwMDA0ODQ1ODE4ODkzIiwiY29kZSI6IkFRRFJDUFQ4ZEVuRjNVUlB4OGlfTjBZdkVKVzEzczdHNE0taDk3YUR6MFlmV0FfR0M5RUFNZElGOEtEWmhlWGVKcERjNlhobnJid01HM1VKOUhYQ2M0TW5GNlk1eGxZN2Q1dGswazdJX0RqSkV3U1ZXRnZaTWN5TUF6TUZIUWhNVjlrbE5ROFRlb2ItazRYaGw5TTZCUDNsSWRCLWVhX3FfTGM3WVgxaFBKTFlFbm5EbTBjLUs0YWFzUHcwNjI3Rk9YV3NwRFBYdDl4TWdJRTlGaDBYRkZrRlJyUUFSOVRhQ3IzQ2oza0lyNWZub3VRdXJsc0t4MnZYaDRTSFk0WGNXVTlTbU5ZQzVXZ2prX2VzRlUyYjR3eDRNS3NST0ExbFhYbkxZUkJwd0tvMGVoMTRma3pIYjFkemRLMHVzYW1qbmRkbzZ6bkdLbTZ1TjFXNFY5UDV0aF8xbnlGb1E4QU0zZEJhWUxIZkVfWmxXQSIsIm9hdXRoX3Rva2VuIjoiRUFBQnd6TGl4bmpZQkFIbk1OaGtvbVQyNWZpOVRyN0dweFJPZFNONUlUWkI1aG91Y3lGMDR6QWJwNlN4WWlOd09iV1FuVmhHbU9oVXNQTVpCRXUzUlgxSGVRZzMyY25HaFQ3MlUxWGxJRGV6RElWdFlCTlpCcTRiU29lUkhwWGw3ZUhRQWd6VFpBcVBvMmlBeENTY3lyZHJVdXZ3aXI3c0lNaGJxQ25QR2Q1NXVjMnh0VDl4M3haQWVqMHJDbTJsc1JyVzRrbm1GVWNRWkRaRCIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwiaXNzdWVkX2F0IjoxNjg2NDg2MTg3fQ; fbsr_124024574287414=sjQItDuZ8QrutGeaQg_Ky3y5ndL5lriziLXHEnq_K-E.eyJ1c2VyX2lkIjoiMTAwMDA0ODQ1ODE4ODkzIiwiY29kZSI6IkFRRFJDUFQ4ZEVuRjNVUlB4OGlfTjBZdkVKVzEzczdHNE0taDk3YUR6MFlmV0FfR0M5RUFNZElGOEtEWmhlWGVKcERjNlhobnJid01HM1VKOUhYQ2M0TW5GNlk1eGxZN2Q1dGswazdJX0RqSkV3U1ZXRnZaTWN5TUF6TUZIUWhNVjlrbE5ROFRlb2ItazRYaGw5TTZCUDNsSWRCLWVhX3FfTGM3WVgxaFBKTFlFbm5EbTBjLUs0YWFzUHcwNjI3Rk9YV3NwRFBYdDl4TWdJRTlGaDBYRkZrRlJyUUFSOVRhQ3IzQ2oza0lyNWZub3VRdXJsc0t4MnZYaDRTSFk0WGNXVTlTbU5ZQzVXZ2prX2VzRlUyYjR3eDRNS3NST0ExbFhYbkxZUkJwd0tvMGVoMTRma3pIYjFkemRLMHVzYW1qbmRkbzZ6bkdLbTZ1TjFXNFY5UDV0aF8xbnlGb1E4QU0zZEJhWUxIZkVfWmxXQSIsIm9hdXRoX3Rva2VuIjoiRUFBQnd6TGl4bmpZQkFIbk1OaGtvbVQyNWZpOVRyN0dweFJPZFNONUlUWkI1aG91Y3lGMDR6QWJwNlN4WWlOd09iV1FuVmhHbU9oVXNQTVpCRXUzUlgxSGVRZzMyY25HaFQ3MlUxWGxJRGV6RElWdFlCTlpCcTRiU29lUkhwWGw3ZUhRQWd6VFpBcVBvMmlBeENTY3lyZHJVdXZ3aXI3c0lNaGJxQ25QR2Q1NXVjMnh0VDl4M3haQWVqMHJDbTJsc1JyVzRrbm1GVWNRWkRaRCIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwiaXNzdWVkX2F0IjoxNjg2NDg2MTg3fQ; rur="EAG\05459502245384\0541718022206:01f72b90c5d9b82bf3ec653f20003ac647be0db45b1042f35a519bede6e5d164173fc3bb"' \
+  -H 'referer: https://www.instagram.com/rashmika_mandanna/' \
+  -H 'sec-ch-prefers-color-scheme: dark' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-full-version-list: "Not.A/Brand";v="8.0.0.0", "Chromium";v="114.0.5735.106", "Google Chrome";v="114.0.5735.106"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-ch-ua-platform-version: "12.3.1"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'viewport-width: 1440' \
+  -H 'x-asbd-id: 129477' \
+  -H 'x-csrftoken: JlkOLu6d2xfaAqM59M0BkeZ6q8oaqVNW' \
+  -H 'x-ig-app-id: 936619743392459' \
+  -H 'x-ig-www-claim: hmac.AR3v09qKitQInYuz9OCJ6ZQN3PVx3Invm69kYgqYXUgLDlMi' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed

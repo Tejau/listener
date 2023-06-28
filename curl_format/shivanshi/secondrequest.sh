@@ -1,0 +1,23 @@
+curl 'https://www.instagram.com/api/v1/friendships/7071272519/followers/?count=12&max_id=QVFEVWt3cjZQenltcF9iWEs4ellVWlllRTFrc0VZcDNrT2w3bzVOb2JwYjdydEU5NFZNb0cxMGVoYU03allWNW5yYXRYOWJLcWh4MkcxOHRkX211T0x3bA%3D%3D&search_surface=follow_list_page' \
+  -H 'authority: www.instagram.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: mid=ZGGZCAAEAAHX2c9KlxyZBs0OcXI3; ig_nrcb=1; ig_did=ECFEB947-D39A-4319-B056-1EB95BF7DFFD; fbm_124024574287414=base_domain=.instagram.com; datr=b6NhZNVrFi1_mm2BNrKSpV1m; dpr=2; ds_user_id=51304663025; csrftoken=d9vhlwrV1rSVAtR26LA9VDzgQreuHL3z; sessionid=51304663025%3A0iylpqo3sEYJJD%3A21%3AAYfP5XarO3mfh3Wen2rJ75vOFHQ8tRttVXODf9ofjw; shbid="15584\05451304663025\0541717476393:01f7d34d19da7a9a64e440ab0302ebfc29b740f86ce369368e320c910633b30863169283"; shbts="1685940393\05451304663025\0541717476393:01f751cd3d8baaf835a150a9759d3090cdced94c335735d68115dade50c117f3e479bae1"; fbsr_124024574287414=SP9By9o7CO4h4sk0VqQXVAKEMMLWOnW6wzUIUs_QP8g.eyJ1c2VyX2lkIjoiMTAwMDA0ODQ1ODE4ODkzIiwiY29kZSI6IkFRQUllVHhRbnptdFZIUUR3TU54cDk2NzNMYnk2MWwzTmRRbEhWU2hNY2QwZ2hscXdYRGZKam1WdWt4SzBLR1NfS3BrejRBWXh6N2VUbVk0bDgtUHdmemN2Qy1IWDlyVDd5bWcyZnUyMEh3WjNNWFdXaE1uekpGNzl1Ml9TWU92TFZraUEyNjJ0SEptOWVPUGtxbHdJM3FELWFrMnBZLUFJbEU4Y3NOV1VZeFFKSUpxM01pT0ZwZzFpMmZ1MXhqVWtaM1VkNWVxZVBrWk1lTVprNkFaUHVqLWcyUHZCUnpMMXV2cmUtbnJ4bllWSnhfUW42RHRuNDZ0cjNQeG8yWnNHNXAxNkJsSU9fOEdYQ2ZBSXowSjNINTFMV0REVmlLeGlLUXRBc2EyUE9RX1p1cmlJZTQwZDdTLTJSS2FrVThpWERRUXhZMTVYZzc3S3lET2hxbHRHb1N0Iiwib2F1dGhfdG9rZW4iOiJFQUFCd3pMaXhuallCQUJWb1JsMHU2TmpDOHBaQWhUZUhQem1Rd0VwM3BRbUhxdUJGWkNaQWJwbGl2dHczQnNaQldkcU9SNm5tYk5IT09MSHVtWG1kbGExeHowZFZTWkNlUVpDQWpkOXNVeGUwWkJ3d1V5c1pCNDkyNjBaQ3huU2h0dTAxWGdQWEJiZFZJTFF0YU94WW5yamF2ZWNnclBrMlZGQWJ1VUFiclpCS0FCcmdzT3htRGhqcTQ1amZ2WkNSVVpDTVI4YjNIQ1M5aHFSVHN3WkRaRCIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwiaXNzdWVkX2F0IjoxNjg1OTQxMTQ2fQ; fbsr_124024574287414=SP9By9o7CO4h4sk0VqQXVAKEMMLWOnW6wzUIUs_QP8g.eyJ1c2VyX2lkIjoiMTAwMDA0ODQ1ODE4ODkzIiwiY29kZSI6IkFRQUllVHhRbnptdFZIUUR3TU54cDk2NzNMYnk2MWwzTmRRbEhWU2hNY2QwZ2hscXdYRGZKam1WdWt4SzBLR1NfS3BrejRBWXh6N2VUbVk0bDgtUHdmemN2Qy1IWDlyVDd5bWcyZnUyMEh3WjNNWFdXaE1uekpGNzl1Ml9TWU92TFZraUEyNjJ0SEptOWVPUGtxbHdJM3FELWFrMnBZLUFJbEU4Y3NOV1VZeFFKSUpxM01pT0ZwZzFpMmZ1MXhqVWtaM1VkNWVxZVBrWk1lTVprNkFaUHVqLWcyUHZCUnpMMXV2cmUtbnJ4bllWSnhfUW42RHRuNDZ0cjNQeG8yWnNHNXAxNkJsSU9fOEdYQ2ZBSXowSjNINTFMV0REVmlLeGlLUXRBc2EyUE9RX1p1cmlJZTQwZDdTLTJSS2FrVThpWERRUXhZMTVYZzc3S3lET2hxbHRHb1N0Iiwib2F1dGhfdG9rZW4iOiJFQUFCd3pMaXhuallCQUJWb1JsMHU2TmpDOHBaQWhUZUhQem1Rd0VwM3BRbUhxdUJGWkNaQWJwbGl2dHczQnNaQldkcU9SNm5tYk5IT09MSHVtWG1kbGExeHowZFZTWkNlUVpDQWpkOXNVeGUwWkJ3d1V5c1pCNDkyNjBaQ3huU2h0dTAxWGdQWEJiZFZJTFF0YU94WW5yamF2ZWNnclBrMlZGQWJ1VUFiclpCS0FCcmdzT3htRGhqcTQ1amZ2WkNSVVpDTVI4YjNIQ1M5aHFSVHN3WkRaRCIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwiaXNzdWVkX2F0IjoxNjg1OTQxMTQ2fQ; rur="LDC\05451304663025\0541717477209:01f739e48dc0abce42cadce44e964e43794f70f988f402202be6fc8d5217ac8c016531ef"' \
+  -H 'referer: https://www.instagram.com/shivi_chouhan08/followers/' \
+  -H 'sec-ch-prefers-color-scheme: dark' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-full-version-list: "Not.A/Brand";v="8.0.0.0", "Chromium";v="114.0.5735.90", "Google Chrome";v="114.0.5735.90"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-ch-ua-platform-version: "12.3.1"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'viewport-width: 720' \
+  -H 'x-asbd-id: 198387' \
+  -H 'x-csrftoken: d9vhlwrV1rSVAtR26LA9VDzgQreuHL3z' \
+  -H 'x-ig-app-id: 936619743392459' \
+  -H 'x-ig-www-claim: hmac.AR12y-CaZnZcTeNoC-nvJmyiZZdhvBAGLnh5SA26R-cTZtcd' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed
