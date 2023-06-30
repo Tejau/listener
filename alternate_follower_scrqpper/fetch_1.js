@@ -1,6 +1,6 @@
 const fetchData = () => {
     return new Promise((resolve, reject) => {
-      fetch("https://www.instagram.com/graphql/query/?query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A7449266310%2C%22after%22%3A%22%22%2C%22first%22%3A50%7D", {
+      fetch("https://www.instagram.com/graphql/query/?query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A4623934864%2C%22after%22%3A%22%22%2C%22first%22%3A50%7D", {
         headers: {
           "accept": "*/*",
           "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
